@@ -1,0 +1,15 @@
+@import 'styles/app';
+
+.layout {
+  display: flex;
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    width: 100%;
+    :global(.error) {
+      margin: -30px;
+      width: calc(100% + 60px);
+    }
+  }
+}
