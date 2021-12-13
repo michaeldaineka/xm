@@ -8,8 +8,6 @@ import React from 'react';
 const CustomRoute = React.memo(function CustomRouteComponent({ ...props }: RouteProps) {
   const isAuthenticated = useAppSelector((state) => state.auth.isAuthenticated);
 
-  console.log(isAuthenticated, 'authx');
-
   return isAuthenticated ? (
     <Route {...props} component={Layout} />
   ) : (

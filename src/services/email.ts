@@ -1,7 +1,8 @@
 import axios from "axios";
+import {url} from "../config";
 
 export const sendEmail = ({...rest}: Record<string, unknown>): void => {
-    axios.post('http://localhost:8080/api/auth/sendEmail', {
+    axios.post(`${url}/api/auth/sendEmail`, {
         ...rest
     })
 }
