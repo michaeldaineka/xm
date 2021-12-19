@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1329362-00ae-49ff-a5cb-a10e8aa30a02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/email.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/email.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Alert/__tests__/Alert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App.spec.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/__tests__/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/auth/__tests__/Auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/tests/App/AppWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/__tests__/Header.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/__tests__/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/__tests__/__snapshots__/Header.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/__tests__/Layout.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/__tests__/__snapshots__/Layout.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +25,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="225uVSSIQZP9y76t1sRTfDPqo3g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,13 +43,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -54,7 +74,9 @@
       <option name="presentableId" value="Default" />
       <updated>1639139793324</updated>
       <workItem from="1639139795893" duration="3394000" />
-      <workItem from="1639214429500" duration="49438000" />
+      <workItem from="1639214429500" duration="50244000" />
+      <workItem from="1639925614389" duration="103000" />
+      <workItem from="1639925731555" duration="6917000" />
     </task>
     <servers />
   </component>
@@ -71,5 +93,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

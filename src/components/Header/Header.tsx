@@ -8,7 +8,7 @@ const Header = (): JSX.Element => {
     <header className={s.header}>
       <Row>
         <Col sm={24} className={'d-flex'}>
-          <img src={logo} alt="XM Logo" width="147.88px" height="39" />
+          <img src={logo} alt="XM Logo" width="147.88px" height="39" data-test-id={"logo"} />
           <small className={s.small}>task</small>
         </Col>
       </Row>
