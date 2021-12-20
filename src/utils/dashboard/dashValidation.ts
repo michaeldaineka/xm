@@ -1,14 +1,16 @@
 import { FormItemValidation } from '../../types/pages/auth/formValidation';
-
+import dayjs from 'dayjs'
 import * as yup from 'yup';
+
+const initDate = dayjs().add(1, 'day').format('YYYY-MM-DD')
 
 const validateStartDate: FormItemValidation = async (rule, value, form) => {
   const startDate = yup
     .date()
     .required()
-    .max(new Date().toDateString());
+    .max(initDate);
   try {
-    await startDate.validate(value?._d.toDateString());
+    await startDate.validate(value);
     form.setFields([
       {
         name: 'startDate',
@@ -32,10 +34,10 @@ const validateEndDate: FormItemValidation = async (rule, value, form) => {
   const endDate = yup
     .date()
     .required()
-    .min(form.getFieldsValue().startDate?._d.toDateString() ?? new Date())
-    .max(new Date().toDateString());
+    .min(dayjs(form.getFieldsValue().startDate).format('YYYY-MM-DD') ?? new Date())
+    .max(initDate);
   try {
-    await endDate.validate(value?._d.toDateString());
+    await endDate.validate(value);
     form.setFields([
       {
         name: 'endDate',

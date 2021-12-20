@@ -1,3 +1,7 @@
 export type HistoricalQuote = {
-    [key: string]: unknown | Date
+    date: number;
+    companySymbol: string;
+    email: string;
+    startDate: number;
+    endDate: number;
 }

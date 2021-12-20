@@ -1,5 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { getHistoricalData } from '../../services/historicalData';
+import dayjs from 'dayjs'
 
 const initialState = {
   isFetching: false,
@@ -25,8 +26,8 @@ export const companySlice = createSlice({
     [getCompanyData.fulfilled]: (state, action) => {
       state.isFetching = false;
       state.companyData = action.payload.res.data.prices;
-      localStorage.startDate = action.payload.startDate._d;
-      localStorage.endDate = action.payload.endDate._d;
+      localStorage.startDate = dayjs(action.payload.startDate).unix();
+      localStorage.endDate = dayjs(action.payload.endDate).unix();
     },
   },
 });

@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1329362-00ae-49ff-a5cb-a10e8aa30a02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Alert/__tests__/Alert.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/__tests__/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/auth/__tests__/Auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/tests/App/AppWrapper.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/__tests__/Header.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/__tests__/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/__tests__/__snapshots__/Header.test.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/__tests__/Layout.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/__tests__/__snapshots__/Layout.test.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/company/Company.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/company/Company.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/slices/companySlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/slices/companySlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/pages/company/companyTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/pages/company/companyTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/auth/formatters/date.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/auth/formatters/date.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/dashboard/dashValidation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/dashboard/dashValidation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +70,8 @@
       <workItem from="1639139795893" duration="3394000" />
       <workItem from="1639214429500" duration="50244000" />
       <workItem from="1639925614389" duration="103000" />
-      <workItem from="1639925731555" duration="6917000" />
+      <workItem from="1639925731555" duration="7548000" />
+      <workItem from="1640021767543" duration="1948000" />
     </task>
     <servers />
   </component>

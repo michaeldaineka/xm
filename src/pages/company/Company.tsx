@@ -20,12 +20,12 @@ const Company = () => {
 
     useEffect(() => {
         if (prices.length) {
-            let newPrices = prices.map((item: Record<string, HistoricalQuote>, index: number) =>
+            let newPrices = prices.map((item: HistoricalQuote, index: number) =>
                 Object.assign({}, item, {newDate: formatToISODate(item.date), key: index})
             )
-            newPrices = newPrices.filter((item: Record<string, HistoricalQuote>) => {
-                if (Date.parse(localStorage.startDate) <= ((item.date as unknown) as number) && Date.parse(localStorage.endDate) >= ((item.date as unknown) as number)) {
-                    return item
+            newPrices = newPrices.filter((item: HistoricalQuote) => {
+                if (localStorage.startDate <= item.date && localStorage.endDate >= item.date) {
+                    return item;
                 }
             })
             setHistoricalQuotes(newPrices)
