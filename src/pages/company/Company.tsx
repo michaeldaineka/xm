@@ -10,6 +10,7 @@ import {CartesianGrid, Legend, Line, Tooltip, XAxis, YAxis, LineChart, Responsiv
 import {companyDataColumns} from 'utils/company/companyData'
 import {formatToISODate} from "../../utils/auth/formatters/date";
 import {HistoricalQuote} from "../../types/pages/company/companyTypes";
+import dayjs from 'dayjs'
 
 const Company = () => {
     const {symbol} = useParams<{ symbol?: string }>();
@@ -21,7 +22,7 @@ const Company = () => {
     useEffect(() => {
         if (prices.length) {
             let newPrices = prices.map((item: HistoricalQuote, index: number) =>
-                Object.assign({}, item, {newDate: formatToISODate(item.date), key: index})
+                Object.assign({}, item, {newDate: dayjs.unix(item.date).format('YYYY-MM-DD'), key: index})
             )
             newPrices = newPrices.filter((item: HistoricalQuote) => {
                 if (localStorage.startDate <= item.date && localStorage.endDate >= item.date) {
